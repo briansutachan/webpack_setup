@@ -1,0 +1,14 @@
+{
+  "name": "webpack_setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Brian Sutachan",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.0.0"
+  }
+}
