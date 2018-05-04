@@ -1,0 +1,63 @@
+
+#map {
+    height: 600px;
+  }
+  
+  /* Optional: Makes the sample page fill the window. */
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #locationField, #controls {
+    position: relative;
+    width: 480px;
+  }
+  
+  #autocomplete {
+    padding: 0px 10px ;
+    font-size: 16px;
+    height: 60px;
+    width: 100%;
+  }
+  
+  .label {
+    text-align: right;
+    font-weight: bold;
+    width: 100px;
+    color: #303030;
+  }
+  
+  #address {
+    border: 1px solid #000090;
+    background-color: #f0f0ff;
+    padding-right: 2px;
+    flex: 1;
+  }
+  
+  #address td {
+    font-size: 10pt;
+  }
+  
+  .field {
+    width: 99%;
+  }
+  
+  .slimField {
+    width: 80px;
+  }
+  
+  .wideField {
+    width: 200px;
+  }
+  
+  #locationField {
+    margin-bottom: 2px;
+  }
